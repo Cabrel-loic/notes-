@@ -1,0 +1,49 @@
+# Python/Django ignores
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyi
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Django stuff:
+db.sqlite3
+media/
+staticfiles/
+
+# Env files
+.env
+
+# Pytest cache
+.pytest_cache/
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyd
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+logs/
+
+# Coverage
+htmlcov/
+.coverage
+coverage.xml
+
+# Migrations (if you prefer not to track generated migrations uncomment)
+# backend/api/migrations/__pycache__/
+# backend/api/migrations/*.py[cod]
+
+# OS files
+.DS_Store
+Thumbs.db
